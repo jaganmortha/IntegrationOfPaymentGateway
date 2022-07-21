@@ -1,0 +1,108 @@
+#header{
+         display : flex;
+         background-color : rgb(236, 236, 236);
+        
+        }
+
+#head1{
+        margin-top : 30px;
+        margin-left : 30px;
+        margin-bottom : 30px;
+        font-family : Arial, Helvetica, sans-serif;
+        color: rgb(11, 91, 219);
+       }
+#bg{
+  background-image:url("1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headbtn{
+         position : relative;
+         margin-left : 800px;
+         margin-top : 60px;
+         margin-bottom : 20px;
+         color: white;
+         }
+
+#header-img{
+          height : 10%;
+          width : 5%;
+          border-radius : 2px;
+          margin-top : 15px;
+          margin-left : 15px;
+          margin-bottom : 15px;
+           }	
+
+#b{
+    background-color : rgb(88, 93, 241);
+    color : rgb(255, 255, 255);
+    border-color : lightblue;
+    border-radius : 10px;
+    font-weight : bold;
+  }
+
+#b:hover{
+          color : yellow;
+          background-color : blue;
+          cursor : pointer;
+          box-shadow : 0 5px 10px;
+          transition : box-shadow 0.4s;
+         }
+
+#body{
+       display : flex;
+       margin-top : 1px;
+       margin-left : 360px;
+     }
+#body1{
+         margin-left : 20px;
+margin-top : 100px;
+         font-family : cursive;
+         color: white;
+       }
+#body-img{
+
+           margin-left: 900px;
+           margin-top: -200px;
+         }
+
+#body2{
+        margin-left : 700px;
+        margin-top : 100px;
+        height : 50px;
+        width : 15%;
+        background-color : grey;
+        color : white;
+        font-weight : bold;
+        font-family : cursive;
+        font-size : 23px;
+        border-color : white;
+        border-radius : 10px;
+      }
+
+#body2:hover{
+              height : 50px;
+              width : 15%;
+              background-color : white;
+              color : grey;
+              font-size : 27px;
+              cursor : pointer;
+              transition : box-shadow 0.5s;
+              border-color : grey;
+            }
+
+#post {
+  height: 30px;
+  width: 25px;
+  margin-left: 300px;
+  margin-top: 40px;
+
+}
+
+#margins {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: -10%;
+  margin-right: 700px;
+  border-right: 600px;
+}
